@@ -3,7 +3,7 @@ import { connect } from 'cloudflare:sockets';
 
 let userID = '47e8011b-65fa-4b76-8a16-5af2783c3970';
 
-const proxyIPs = ["13.107.21.200"]; // ['23.162.136.169','cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org' , [2001:67c:2b0:db32:0:1:681a:404];
+const proxyIPs = ['search.live.com','images.live.com','news.live.com']; // ['23.162.136.169','cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org' , [2001:67c:2b0:db32:0:1:681a:404];
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
 let dohURL = 'https://cloudflare-dns.com/dns-query'; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query or https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg=
