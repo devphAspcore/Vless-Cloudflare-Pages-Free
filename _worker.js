@@ -4,6 +4,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = '47e8011b-65fa-4b76-8a16-5af2783c3970';
 
 const proxyIPs = [
+    "23.162.136.169",
     "8.222.128.131",
     "43.157.17.4",
     "8.219.247.203",
