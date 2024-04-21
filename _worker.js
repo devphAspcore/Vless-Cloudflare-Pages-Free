@@ -3,7 +3,8 @@ import { connect } from 'cloudflare:sockets';
 
 let userID = '47e8011b-65fa-4b76-8a16-5af2783c3970';
 
-const proxyIPs = [
+// ['23.162.136.169','cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org' , [2001:67c:2b0:db32:0:1:681a:404];
+const proxyIPs = [   
    "155.248.196.218",
    "8.219.210.64",
    "23.162.136.169",
